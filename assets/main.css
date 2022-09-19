@@ -1,5 +1,7 @@
 body {
-  background-color: lavender;
+  background-color: #173d66;
+  font-family: 'Reem Kufi Fun', sans-serif;
+
 }
 
 #EmmaWu {
@@ -7,5 +9,10 @@ body {
 }
 
 h1 {
-  color: red;
+  color: white;
 }
+a {
+color: white;
+}
+
+details {color: white; }
