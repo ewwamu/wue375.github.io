@@ -3,16 +3,13 @@ body {
 }
 
 #EmmaWu {
-  color: green;
+  color: #996633;
 }
 
+
 h1 {
-  color: #996633;
-  background: beige;
-  border: 1px solid #e8de90;
-  margin: 10px;
-  padding: 5px;
-  font-family: 'Times New Roman';
+  color: beige;
+  font-family: 'times';
   font-size: 36px;
   letter-spacing: 20px;
   text-align: center;
@@ -21,6 +18,15 @@ h1 {
 
 a {
 color: #e8de90;
+text-align: center;
 }
 
-details {color: #e8de90; }
+details {color: #e8de90;
+  text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
