@@ -52,6 +52,7 @@ a:hover {
 
 .btn:hover {
   transform:  scale(1.2);
+  opacity: 50%;
 }
 .btn {
 transition: transform 250ms;
