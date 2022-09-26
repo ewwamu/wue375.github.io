@@ -31,11 +31,19 @@ details {color: #e8de90;
   width: 50%;
 }
 
-h3:hover {
-  background-color: yellow;
-}
-
 /* mouse over link */
 a:hover {
   color: red;
+}
+
+.btn {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: none;
+  background: slateblue;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1;
 }
