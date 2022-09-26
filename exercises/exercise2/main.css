@@ -7,9 +7,9 @@ h1 {
   color: blue;
 }
 
-strong .thing {
+strong.thing {
   transition: 0.2s;
 }
-strong .thing:hover {
+strong:hover {
   transition-delay: 3s; /* delay hover animation only ON, not OFF */
 }
