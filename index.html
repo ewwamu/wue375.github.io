@@ -6,6 +6,8 @@
   <link rel="stylesheet" href="assets/main.css">
   <title>Emma Wu</title>
   <style>
+  <button class="btn">
+  exercise two  </button>
     .btn {
       width: 100px;
       height: 100px;
@@ -19,10 +21,14 @@
       margin: auto;
       text-align: center;
     }
-
     .btn:hover {
-      transform: translateY(-10px);
-    }
+      transform:  scale(1.2);
+  opacity: 0;
+}
+.btn {
+  transition: transform 250ms;
+  transition-timing-function: linear;
+}
   </style>
 </head>
 <body>
@@ -49,8 +55,7 @@
 </details>
 
 <a href="exercises/index.html">
-  <button class="btn">
-exercise two  </button>
+
 </a>
 
 

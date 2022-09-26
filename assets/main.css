@@ -49,3 +49,12 @@ a:hover {
   margin: auto;
   text-align: center;
 }
+
+.btn:hover {
+  transform:  scale(1.2);
+opacity: 0;
+}
+.btn {
+transition: transform 250ms;
+transition-timing-function: linear;
+}
