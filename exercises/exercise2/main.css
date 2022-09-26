@@ -6,10 +6,17 @@ body {
 h1 {
   color: blue;
 }
+/* mouse over link */
 
 strong.thing {
   transition: 0.2s;
 }
+/* mouse over link */
 strong:hover {
   transition-delay: 3s; /* delay hover animation only ON, not OFF */
+}
+/* mouse over link */
+
+strong:hover {
+color: red;
 }
