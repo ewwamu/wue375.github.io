@@ -30,3 +30,7 @@ details {color: #e8de90;
   margin-right: auto;
   width: 50%;
 }
+
+module {
+  cursor: url('star-lemon.PNG'), auto;	
+}
