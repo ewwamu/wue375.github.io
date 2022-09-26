@@ -8,15 +8,15 @@ h1 {
 }
 /* mouse over link */
 
-strong.thing {
+details.thing {
   transition: 0.2s;
 }
 /* mouse over link */
-strong:hover {
+details:hover {
   transition-delay: 3s; /* delay hover animation only ON, not OFF */
 }
 /* mouse over link */
 
-strong:hover {
+details:hover {
 color: red;
 }
