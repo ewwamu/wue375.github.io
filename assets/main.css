@@ -34,3 +34,8 @@ details {color: #e8de90;
 h3:hover {
   background-color: yellow;
 }
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
