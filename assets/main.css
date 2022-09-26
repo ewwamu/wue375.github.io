@@ -31,6 +31,6 @@ details {color: #e8de90;
   width: 50%;
 }
 
-module {
-  cursor: url('star-lemon.PNG'), auto;	
+a:hover {
+  background-color: yellow;
 }
