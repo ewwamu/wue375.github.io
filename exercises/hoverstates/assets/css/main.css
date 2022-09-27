@@ -40,7 +40,7 @@ body {
 
 .long-way {
   font-style: italic;
-  transition: all 10s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .long-way:hover {
@@ -214,7 +214,7 @@ transition: all 0.5s ease;
 .circle {
   display: inline-block;
   line-height: 80px;
-  width: 80px;
+  width: 80px;2
   height: 80px;
  -webkit-transform: rotate(90deg);
   position: relative;
