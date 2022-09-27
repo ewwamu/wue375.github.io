@@ -60,7 +60,7 @@ transition-timing-function: linear;
 }
 
 
-@font-face {
+.h1{
   font-family: Pilowlava;
   src: url(Pilowlava-Regular.woff);
 }
