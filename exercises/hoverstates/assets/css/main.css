@@ -182,8 +182,8 @@ transition: all 0.5s ease;
 }
 
 .palm:hover {
-  -webkit-transform: rotate(360deg) scale(2);
-  transform: rotate(360deg) scale(2);
+  -webkit-transform: rotate(-360deg) scale(2);
+  transform: rotate(-360deg) scale(2);
   cursor: pointer;
 }
 
