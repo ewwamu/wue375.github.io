@@ -213,7 +213,7 @@ transition: all 0.5s ease;
 /* fourth paragraph - hovers */
 
 .circle {
-  width: 400px;
+  width: 40px;
   height: 40px;
   position: relative;
   display: circle;
