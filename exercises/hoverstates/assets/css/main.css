@@ -216,9 +216,9 @@ transition: all 0.5s ease;
   width: 400px;
   height: 40px;
   position: relative;
-  display: inline-block;
+  display: circle;
   margin: 0 auto;
-  background-color: #5293d5;
+  background-color: #c529d2;
   -webkit-transform: rotate(45deg);
   -webkit-transition: all 1s ease-in-out;
 }
