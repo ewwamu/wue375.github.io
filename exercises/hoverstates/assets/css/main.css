@@ -212,17 +212,17 @@ transition: all 0.5s ease;
 
 /* fourth paragraph - hovers */
 .circle {
-  display: block;
+  display: inline-block;
   line-height: 80px;
   width: 80px;
-  height: 10px;
+  height: 80px;
  -webkit-transform: rotate(90deg);
   position: relative;
   display: circle;
   border-radius: 50%;
   margin: 10px auto;
   padding: 0 auto;
-  background-color: pink;
+  background-color: blue;
 
   -webkit-transition: all 1.5s ease-in-out;
 }
