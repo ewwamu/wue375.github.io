@@ -46,7 +46,7 @@ body {
 .long-way:hover {
   cursor: pointer;
   font-size: 2em;
-  transition-duration: 2s;
+  transition-duration: 1s;
 }
 
 .simplelink {
