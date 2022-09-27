@@ -219,16 +219,14 @@ transition: all 0.5s ease;
   display: circle;
   margin: 20px auto;
   padding: 20px;
-  border-radius: 50%;
   background-color: #c529d2;
   -webkit-transform: rotate(90deg);
   -webkit-transition: all 1s ease-in-out;
 }
 
 .shape:hover {
-  border-radius: 75%;
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   background-color: #c529d2;
   -webkit-transform: scale(3.25);
   cursor: pointer;
