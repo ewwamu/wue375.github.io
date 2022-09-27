@@ -221,8 +221,8 @@ transition: all 0.5s ease;
   margin: 20px auto;
   padding: 20px;
   background-color: #c529d2;
-  -webkit-transform: rotate(90deg);
-  -webkit-transition: all 1s ease-in-out;
+  -webkit-transform: rotate(180deg);
+  -webkit-transition: all 1.5s ease-in-out;
 }
 
 .shape:hover {
