@@ -213,18 +213,20 @@ transition: all 0.5s ease;
 /* fourth paragraph - hovers */
 
 .circle {
-  width: 40px;
+  width: 400px;
   height: 40px;
   position: relative;
   display: circle;
-  margin: 0 auto;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 50%;
   background-color: #c529d2;
   -webkit-transform: rotate(45deg);
   -webkit-transition: all 1s ease-in-out;
 }
 
 .circle:hover {
-  border-radius: 50%;
+  border-radius: 75%;
   width: 200px;
   height: 200px;
   background-color: #c529d2;
