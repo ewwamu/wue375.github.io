@@ -58,7 +58,7 @@ body {
 
 .simplelink:hover {
   cursor: pointer;
-  background: linear-gradient(270deg, #ff00f5, #ffd736, #f2a4ff, #6bf51d, #06e854);
+  background: linear-gradient(270deg, #00d4ff, #090979, #915007, #b00563, #00d4ff);
   background-size: 1000% 1000%;
 
   -webkit-animation: slideBackground 2s ease infinite;
@@ -182,8 +182,8 @@ transition: all 0.5s ease;
 }
 
 .palm:hover {
-  -webkit-transform: rotate(-360deg) scale(2);
-  transform: rotate(-360deg) scale(2);
+  -webkit-transform: rotate(360deg) scale(2);
+  transform: rotate(360deg) scale(2);
   cursor: pointer;
 }
 
