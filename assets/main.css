@@ -1,30 +1,29 @@
 body {
-  background-color: #996633;
-}
-
-#EmmaWu {
-  color: #996633;
+  background-color: #4287f5;
 }
 
 
 h1 {
   color: beige;
-  font-family: 'times';
-  font-size: 36px;
+  font-family: 'Pilowlava';
+  font-size: 65px;
   letter-spacing: 20px;
-  text-align: center;
-}
+  text-align: left;
 
+}
 
 a {
 color: #e8de90;
-text-align: center;
+text-align: left;
+font-family: sans-serif;
 }
 
 details {color: #e8de90;
-  text-align: center;
+  text-align: left;
+  font-family: sans-serif;
 }
-.center {
+
+.left {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -36,31 +35,102 @@ a:hover {
   color: red;
 }
 
-.btn {
+.circle {
+  display: inline-block;
+  line-height: 100px;
   width: 100px;
   height: 100px;
+  transform: rotate(90deg);
+  position: left;
+  display: flex;
   border-radius: 50%;
-  border: none;
-  background: beige;
-  color: #996633;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1;
-  margin: auto;
+  margin: left;
+  padding:auto;
+  justify-content: center;
+  align-items: center;
+  color: beige;
+  font-family: 'Pilowlava';
+  font-size: 0px;
+  letter-spacing: 5px;
   text-align: center;
+  background-color: beige;
+
+  -webkit-transition: all 1.0s ease-in-out;
 }
 
-.btn:hover {
-  transform:  scale(1.2);
-  opacity: 50%;
-}
-.btn {
-transition: transform 250ms;
-transition-timing-function: linear;
+.circle:hover {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  margin: left;
+  background-color: beige;
+  color: #4287f5;
+  font-family: 'Pilowlava';
+  font-size: 80px;
+  letter-spacing: 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transform: rotate(0deg);
+  cursor: pointer;
 }
 
-
-.h1{
-  font-family: Pilowlava;
-  src: url(Pilowlava-Regular.woff);
+.cs-menu{
+  color: #4287f5;
+  font-family: 'Pilowlava';
+  font-size: 72px;
+  letter-spacing: 20px;
+  text-align: left;
 }
+
+.cs-menu {
+  position: center;
+  top: 35%;
+  right:10%;
+}
+
+.cs-menu .item {
+  margin: 0 0 0 left;
+  border: 1px solid beige;
+  width: 0px;
+  height: 100px;
+  background: beige;
+  transition: width 1s;
+}
+
+.cs-menu .item:hover {
+  width: 800px;
+}
+
+h1 {
+  background-color: #4287f5;
+  -webkit-animation: none;
+  -moz-animation: none;
+  animation: none;
+}
+
+h1:hover {
+  cursor: pointer;
+  background: linear-gradient(270deg, #4287f5, #081c85, #c46800, #b00563);
+  background-size: 1000% 1000%;
+
+  -webkit-animation: slideBackground 3s ease infinite;
+  -moz-animation: slideBackground 3s ease infinite;
+  animation: slideBackground 3s ease infinite;
+}
+
+    @-webkit-keyframes slideBackground {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @-moz-keyframes slideBackground {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @keyframes slideBackground {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
