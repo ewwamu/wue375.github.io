@@ -218,7 +218,8 @@ transition: all 0.5s ease;
   position: relative;
   display: circle;
   border-radius: 50%;
-
+  margin: 10px auto;
+  padding: 10px;
   background-color: #c529d2;
   -webkit-transform: rotate(180deg);
   -webkit-transition: all 1.5s ease-in-out;
