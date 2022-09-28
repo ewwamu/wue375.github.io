@@ -1,6 +1,8 @@
 body {
   background-color: #4287f5;
-}
+  body {
+    cursor: url('assets/imgs/bunny-stamp.PNG'),auto;
+  }}
 
 
 h1 {
