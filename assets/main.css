@@ -1,8 +1,6 @@
 body {
   background-color: #4287f5;
-  body {
-    cursor: url('assets/imgs/bunny-stamp.PNG'),auto;
-  }}
+  }
 
 
 h1 {
@@ -11,7 +9,6 @@ h1 {
   font-size: 65px;
   letter-spacing: 20px;
   text-align: left;
-
 }
 
 a {
@@ -47,7 +44,7 @@ a:hover {
   display: flex;
   border-radius: 50%;
   margin: left;
-  padding:auto;
+  padding: auto;
   justify-content: center;
   align-items: center;
   color: beige;
@@ -112,7 +109,7 @@ h1 {
 }
 
 h1:hover {
-  cursor: pointer;
+  cursor: url("assets/imgs/bunny.PNG"), auto;
   background: linear-gradient(270deg, #4287f5, #081c85, #c46800, #b00563);
   background-size: 1000% 1000%;
 
@@ -135,4 +132,5 @@ h1:hover {
         0%{background-position:0% 50%}
         50%{background-position:100% 50%}
         100%{background-position:0% 50%}
+
     }
