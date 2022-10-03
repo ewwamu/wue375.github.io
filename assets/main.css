@@ -86,6 +86,7 @@ a:hover {
   letter-spacing: 5px;
   text-align: center;
   background-color: beige;
+
   -webkit-transition: all 1.0s ease-in-out;
 }
 

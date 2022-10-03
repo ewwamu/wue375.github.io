@@ -1,15 +1,73 @@
 body {
-  background-color: blue;
+  background-color: black;
 }
 
 h1 {
-  color: purple;
+  color: white;
+  font-size: 72px;
+}
+
+
+h2{
+  color: white;
+}
+
+h4 {
+  color:white;
+}
+
+h6 {
+  color:white;
+  font-size: 16px;
+
+}
+
+p{
+  color: black;
+  vertical-align: middle;
+}
+
+.cs-menu{
+  color: black;
+  font-family: 'Times';
+  font-size: 17px;
+  letter-spacing: 3px;
+  text-align: right;
+}
+
+.cs-menu {
+  position: left;
+  top: 25%;
+  right:10%;
+}
+
+.cs-menu .item {
+  margin: 0 0 0 right;
+  border: 2px solid white;
+  width: 0px;
+  height: 175px;
+  background: white;
+  transition: width 1s;
+}
+
+.cs-menu .item:hover {
+  width: 750px;
 }
 
 .glowing-circle {
+  display: inline-block;
+  line-height: 100px;
+  transform: rotate(90deg);
+  position: left;
+  display: flex;
+  margin: left;
+  padding: auto;
   width: 100px;
   height: 100px;
   border-radius:50%;
+  justify-content: center;
+  align-items: center;
+  -webkit-transition: all 1.0s ease-in-out;
   background-color: #fff;
   -webkit-animation: glowing 1s ease-in-out infinite alternate;
   -moz-animation: glowing 1s ease-in-out infinite alternate;
@@ -22,4 +80,13 @@ h1 {
   to {
     box-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
   }
+}
+
+.glowing-circle:hover {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  margin: left;
+  transform: rotate(0deg);
+  cursor: pointer;
 }
