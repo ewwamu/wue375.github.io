@@ -11,6 +11,39 @@ h1 {
   text-align: left;
 }
 
+h1 {
+  background-color: #4287f5;
+  -webkit-animation: none;
+  -moz-animation: none;
+  animation: none;
+}
+
+h1:hover {
+  background: linear-gradient(270deg, #4287f5, #1b40aa, #081c85, #1b40aa, #4287f5);
+  background-size: 1000% 1000%;
+
+  -webkit-animation: slideBackground 3s ease infinite;
+  -moz-animation: slideBackground 3s ease infinite;
+  animation: slideBackground 3s ease infinite;
+}
+
+    @-webkit-keyframes slideBackground {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @-moz-keyframes slideBackground {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @keyframes slideBackground {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+
+    }
+
 a {
 color: #e8de90;
 text-align: left;
@@ -53,7 +86,6 @@ a:hover {
   letter-spacing: 5px;
   text-align: center;
   background-color: beige;
-
   -webkit-transition: all 1.0s ease-in-out;
 }
 
@@ -100,37 +132,3 @@ a:hover {
 .cs-menu .item:hover {
   width: 800px;
 }
-
-h1 {
-  background-color: #4287f5;
-  -webkit-animation: none;
-  -moz-animation: none;
-  animation: none;
-}
-
-h1:hover {
-  cursor: url("assets/imgs/bunny.PNG"), auto;
-  background: linear-gradient(270deg, #4287f5, #081c85, #c46800, #b00563);
-  background-size: 1000% 1000%;
-
-  -webkit-animation: slideBackground 3s ease infinite;
-  -moz-animation: slideBackground 3s ease infinite;
-  animation: slideBackground 3s ease infinite;
-}
-
-    @-webkit-keyframes slideBackground {
-        0%{background-position:0% 50%}
-        50%{background-position:100% 50%}
-        100%{background-position:0% 50%}
-    }
-    @-moz-keyframes slideBackground {
-        0%{background-position:0% 50%}
-        50%{background-position:100% 50%}
-        100%{background-position:0% 50%}
-    }
-    @keyframes slideBackground {
-        0%{background-position:0% 50%}
-        50%{background-position:100% 50%}
-        100%{background-position:0% 50%}
-
-    }
