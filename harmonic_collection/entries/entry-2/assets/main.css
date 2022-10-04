@@ -66,8 +66,8 @@ font-size: 36px;
 }
 
 .imgfilters img:hover {
-  webkit-filter: invert(100%); /* Chrome, Safari, Opera */
-    filter: invert(100%);
+  webkit-filter: invert(1);
+    filter: invert(1);
 }
 
 .glowing-circle {
