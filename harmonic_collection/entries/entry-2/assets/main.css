@@ -4,12 +4,13 @@ body {
 
 h1 {
   color: white;
-  font-size: 72px;
+  font-size: 100px;
 }
 
 
 h2{
   color: white;
+  font-size: 55px;
 }
 
 h4 {
@@ -17,14 +18,19 @@ h4 {
 }
 
 h6 {
-  color:white;
+  color:black;
   font-size: 16px;
 
 }
 
 p{
-  color: black;
+  color: white;
   vertical-align: middle;
+}
+
+b {
+font-size: 36px;
+
 }
 
 .cs-menu{
@@ -45,7 +51,7 @@ p{
   margin: 0 0 0 right;
   border: 2px solid white;
   width: 0px;
-  height: 175px;
+  height: 150px;
   background: white;
   transition: width 1s;
 }
@@ -89,4 +95,34 @@ p{
   margin: left;
   transform: rotate(0deg);
   cursor: pointer;
+}
+
+.moon {
+  width: 100px;
+  height: 100px;
+  transform: rotate(90deg);
+  position: left;
+  display: flex;
+  border-radius: 50%;
+  margin: left;
+  padding: auto;
+
+  -webkit-transition: all 1.0s ease-in-out;
+}
+
+
+.moon:hover {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  margin: left;
+  transform: rotate(0deg);
+  cursor: pointer;
+
+}
+
+.godwin {
+float: right;
+text-align: right;
+
 }
