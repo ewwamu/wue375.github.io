@@ -888,4 +888,30 @@ p {
 	font-size: 20px;
 	color: white;
 }
+
+
+a {
+	position: absolute;
+	left: 40px;
+	top: 800px;
+}
+
+/* unvisited link */
+a:link {
+color: white;
+}
+
+/* visited link */
+a:visited {
+color: white;
+}
+
+/* mouse over link */
+a:hover {
+color: #fff0ab;
+}
+
+/* selected link */
+a:active {
+color: white;
 }
