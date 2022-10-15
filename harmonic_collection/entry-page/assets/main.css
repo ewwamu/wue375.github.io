@@ -1,0 +1,31 @@
+body {
+background-color: #1d4e89;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+a {
+  font-size: 24px;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: #fff0ab;
+}
+
+a:active {
+  color: white;
+}
+
+.entry-1:hover {
+  
+}

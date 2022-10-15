@@ -1,0 +1,504 @@
+html{
+  cursor: url("imgs/blue-butterfly.PNG"), auto;
+}
+
+body {
+  transition: ease all 0.5s;
+}
+
+h1 {
+  transition: ease all 1s;
+}
+
+#fairy {
+  transition: ease all 0.5s;
+}
+
+#myfairy {
+  transition: ease all 0.5s;
+}
+
+h2 {
+  transition: ease all 0.5s;
+}
+
+p {
+  transition: ease all 1s;
+}
+
+h6 {
+  transition: ease all 1s;
+}
+
+.definition {
+  transition: ease all 1.5s;
+  font-size: 20px;
+}
+
+#batfairy {
+  max-width: 200%;
+  height: auto;
+  left: 0px;
+  right: 0px;
+  }
+
+#bat{
+  max-width: 200%;
+  height: auto;
+  float: center;
+  }
+
+
+
+
+@media (max-width: 2560px) {
+  body {
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+  }
+
+  h1 {
+    padding: 5px;
+    margin: 5px;
+    font-size: 150px;
+    letter-spacing: 50px;
+    text-align: center;
+    cursor: url("imgs/blue-butterfly.PNG"), auto;
+  }
+
+  #fairy {
+    max-width: 100%;
+    height: auto;
+    left: 0px;
+    right: 0px;
+     }
+
+  #myfairy{
+    width: 300px;
+    height: auto;
+    position: relative;
+     }
+
+  h2 {
+    position: relative;
+    font-size: 75px;
+    }
+
+  h6{
+    position: relative;
+    font-size: 50px
+  }
+
+  i {
+    font-size: 50px;
+    transition: all 1.0s ease-in-out;
+    }
+
+  i:hover {
+    font-size: 35px;
+    font-weight: bold;
+    vertical-align: middle;
+    opacity: 0%;
+    }
+
+  b {
+    font-size: 50px;
+    transition: all 1.0s ease-in-out;
+    }
+
+  b:hover {
+    font-size: 65px;
+    color: tomato;
+    }
+
+  .waves {
+    float: right;
+    }
+
+  .origin {
+    float: right;
+    text-align: right;
+    margin: 2px;
+    }
+
+  #batfairy {
+    max-width: 100%;
+    height: auto;
+    left: 0px;
+    right: 0px;
+    }
+
+  #bat{
+    max-width: 100%;
+    height: auto;
+    float: right;
+    }
+}
+
+
+
+
+@media (max-width: 1024px) {
+  body {
+    background-color: olive;
+    color: white;
+    font-size: 18px;
+    transition: ease all .5s;
+  }
+
+  h1 {
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+    font-size: 140px;
+    letter-spacing: 30px;
+    text-align: center;
+    cursor: url("imgs/blue-butterfly.PNG"), auto;
+  }
+
+  #fairy {
+    max-width: 100%;
+    height: auto;
+    left: 0px;
+    right: 0px;
+    transition-property: float;
+    transition: ease all 0.5s;
+     }
+
+  #myfairy{
+    width: 300px;
+    height: auto;
+    position: relative;
+    margin: auto;
+    transition-property: float;
+    transition: ease all 0.5s;
+     }
+
+  p {
+    position: relative;
+  }
+
+  h2 {
+    position: relative;
+    font-size: 65px;
+    }
+
+  h6{
+    position: relative;
+    font-size: 35px;
+    font-weight: normal;
+    line-height: 50px;
+    max-width: 60%;
+    }
+
+  i {
+    font-size: 35px;
+    transition: all 1.0s ease-in-out;
+    }
+
+  i:hover {
+    font-size: 20px;
+    font-weight: bold;
+    vertical-align: middle;
+    opacity: 0%;
+    }
+
+  b {
+    font-size: 35px;
+    transition: all 1.0s ease-in-out;
+    }
+
+  b:hover {
+    font-size: 45px;
+    color: orange;
+    }
+
+  .waves {
+    float: right;
+    }
+
+  .origin {
+    float: right;
+    text-align: right;
+    margin: 2px;
+    }
+
+  .batfairy {
+    max-width: 50%;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+  body {
+    background-color: #f0bc1f;
+    color: white;
+    font-size: 18px;
+    transition: ease all .5s;
+  }
+
+  h1 {
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+    font-size: 120px;
+    letter-spacing: 20px;
+    text-align: center;
+    cursor: url("imgs/blue-butterfly.PNG"), auto;
+  }
+
+  #fairy {
+    max-width: 100%;
+    height: auto;
+    transition-property: float;
+    transition: ease all 0.5s;
+     }
+
+  #myfairy{
+    width: 300px;
+    height: auto;
+    position: relative;
+    float: right;
+    transition-property: float;
+    transition: ease all 0.5s;
+    }
+
+  p {
+    position: relative;
+  }
+
+  h2 {
+    position: relative;
+    font-size: 40px;
+    }
+
+  h6{
+    position: relative;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 50px;
+    max-width: 60%;
+    }
+
+  i {
+    font-size: 30px;
+    transition: all 1.0s ease-in-out;
+    }
+
+  i:hover {
+    font-size: 15px;
+    font-weight: bold;
+    vertical-align: middle;
+    opacity: 0%;
+    }
+
+  b {
+    font-size: 30px;
+    transition: all 1.0s ease-in-out;
+    }
+
+  b:hover {
+    font-size: 40px;
+    color: tomato;
+    }
+
+  .waves {
+    float: right;
+    }
+
+  .origin {
+    float: right;
+    text-align: right;
+    margin: 2px;
+    }
+
+  .batfairy {
+    min-width: 25%;
+    }
+
+}
+
+
+
+
+@media (max-width: 480px) {
+  body {
+    background-color: #a11a0b;
+    color: white;
+    font-size: 18px;
+    transition: ease all .5s;
+  }
+
+  h1 {
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+    font-size: 120px;
+    letter-spacing: 20px;
+    text-align: center;
+    cursor: url("imgs/blue-butterfly.PNG"), auto;
+  }
+
+  #fairy {
+    max-width: 100%;
+    height: auto;
+    transition-property: float;
+    transition: ease all 0.5s;
+     }
+
+  #myfairy{
+    width: 300px;
+    height: auto;
+    position: relative;
+    float: right;
+    transition-property: float;
+    transition: ease all 0.5s;
+    }
+
+  p {
+    position: relative;
+  }
+
+  h2 {
+    position: relative;
+    font-size: 40px;
+    }
+
+  h6{
+    position: relative;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 50px;
+    max-width: 60%;
+    }
+
+  i {
+    font-size: 30px;
+    transition: all 1.0s ease-in-out;
+    }
+
+  i:hover {
+    font-size: 15px;
+    font-weight: bold;
+    vertical-align: middle;
+    opacity: 0%;
+    }
+
+  b {
+    font-size: 30px;
+    transition: all 1.0s ease-in-out;
+    }
+
+  b:hover {
+    font-size: 40px;
+    color: tomato;
+    }
+
+  .waves {
+    float: right;
+    }
+
+  .origin {
+    float: right;
+    text-align: right;
+    margin: 2px;
+    }
+
+  .batfairy {
+    min-width: 25%;
+    }
+
+}
+
+
+
+@media (max-width: 320) {
+  body {
+    background-color: #3d4a73;
+    color: white;
+    font-size: 18px;
+    transition: ease all .5s;
+  }
+
+  h1 {
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+    font-size: 120px;
+    letter-spacing: 20px;
+    text-align: center;
+    cursor: url("imgs/blue-butterfly.PNG"), auto;
+  }
+
+  #fairy {
+    max-width: 100%;
+    height: auto;
+    transition-property: float;
+    transition: ease all 0.5s;
+     }
+
+  #myfairy{
+    width: 300px;
+    height: auto;
+    position: relative;
+    float: right;
+    transition-property: float;
+    transition: ease all 0.5s;
+    }
+
+  p {
+    position: relative;
+  }
+
+  h2 {
+    position: relative;
+    font-size: 40px;
+    }
+
+  h6{
+    position: relative;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 50px;
+    max-width: 60%;
+    }
+
+  i {
+    font-size: 30px;
+    transition: all 1.0s ease-in-out;
+    }
+
+  i:hover {
+    font-size: 15px;
+    font-weight: bold;
+    vertical-align: middle;
+    opacity: 0%;
+    }
+
+  b {
+    font-size: 30px;
+    transition: all 1.0s ease-in-out;
+    }
+
+  b:hover {
+    font-size: 40px;
+    color: tomato;
+    }
+
+  .waves {
+    float: right;
+    }
+
+  .origin {
+    float: right;
+    text-align: right;
+    margin: 2px;
+    }
+
+  .batfairy {
+    min-width: 25%;
+    }
+
+}
