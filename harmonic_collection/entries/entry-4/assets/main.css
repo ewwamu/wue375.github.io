@@ -26,6 +26,31 @@ p {
   transition: ease all 1s;
 }
 
+.syllable-1 {
+  transition: ease all .5s;
+}
+.syllable-2 {
+  transition: ease all .5s;
+}
+.syllable-3 {
+  transition: ease all .5s;
+}
+.syllable-4 {
+  transition: ease all .5s;
+}
+.syllable-5 {
+  transition: ease all .5s;
+}
+.syllable-6 {
+  transition: ease all .5s;
+}
+.syllable-7 {
+  transition: ease all .5s;
+}
+.syllable-8 {
+  transition: ease all .5s;
+}
+
 h6 {
   transition: ease all 1s;
 }
@@ -33,6 +58,15 @@ h6 {
 .definition {
   transition: ease all 1.5s;
   font-size: 20px;
+}
+
+.leaves {
+  font-size: 20px;
+}
+
+.waves {
+  font-size: 20px;
+  text-align: center;
 }
 
 #batfairy {
@@ -52,6 +86,11 @@ h6 {
 
 
 @media (max-width: 2560px) {
+  .container {
+    margin: 1rem;
+    padding: 1rem 1rem;
+  }
+
   body {
     background-color: orange;
     color: white;
@@ -68,14 +107,14 @@ h6 {
   }
 
   #fairy {
-    max-width: 100%;
+    max-width: 200%;
     height: auto;
     left: 0px;
     right: 0px;
      }
 
   #myfairy{
-    width: 300px;
+    width: 400px;
     height: auto;
     position: relative;
      }
@@ -83,12 +122,14 @@ h6 {
   h2 {
     position: relative;
     font-size: 75px;
+    margin: 0px;
     }
 
   h6{
     position: relative;
-    font-size: 50px
-  }
+    font-size: 50px;
+    margin: 0px;
+    }
 
   i {
     font-size: 50px;
@@ -112,14 +153,22 @@ h6 {
     color: tomato;
     }
 
-  .waves {
-    float: right;
+  .whisper {
+    text-align: center;
+  }
+
+  .hum {
+    text-align: right;
+  }
+
+  .definition {
+    max-width: 46%;
     }
 
   .origin {
-    float: right;
     text-align: right;
-    margin: 2px;
+    margin: 0px;
+    float: right;
     }
 
   #batfairy {
@@ -132,7 +181,7 @@ h6 {
   #bat{
     max-width: 100%;
     height: auto;
-    float: right;
+vertical-align: middle;
     }
 }
 
@@ -182,6 +231,7 @@ h6 {
   h2 {
     position: relative;
     font-size: 65px;
+    margin: 0px;
     }
 
   h6{
@@ -190,6 +240,8 @@ h6 {
     font-weight: normal;
     line-height: 50px;
     max-width: 60%;
+    align-content: left;
+    margin: 0px;
     }
 
   i {
@@ -227,6 +279,81 @@ h6 {
   .batfairy {
     max-width: 50%;
     }
+
+  .syllable-1 {
+    color: white;
+  }
+
+  .syllable-1:hover {
+    color: red;
+    font-size: 25px;
+  }
+
+  .syllable-2 {
+    color: white;
+  }
+
+  .syllable-2:hover {
+    color: red;
+    font-size: 25px;
+  }
+
+  .syllable-3 {
+    color: white;
+  }
+
+  .syllable-3:hover {
+    color: red;
+    font-size: 25px;
+  }
+
+  .syllable-4 {
+    color: white;
+  }
+
+  .syllable-4:hover {
+    color: red;
+    font-size: 25px;
+  }
+
+  .syllable-5 {
+    color: white;
+  }
+
+  .syllable-5:hover {
+    color: red;
+    font-size: 25px;
+  }
+
+  .syllable-6 {
+    color: white;
+  }
+
+  .syllable-6:hover {
+    color: red;
+    font-size: 25px;
+  }
+
+  .syllable-7 {
+    color: white;
+  }
+
+  .syllable-7:hover {
+    color: red;
+    font-size: 25px;
+  }
+
+  .syllable-8 {
+    color: white;
+  }
+
+  .syllable-8:hover {
+    color: red;
+    font-size: 25px;
+  }
+
+
+
 }
 
 
@@ -322,8 +449,7 @@ h6 {
 
 
 
-
-@media (max-width: 480px) {
+@media (max-width: 560px) {
   body {
     background-color: #a11a0b;
     color: white;
@@ -335,8 +461,8 @@ h6 {
     padding: 5px;
     margin: 5px;
     position: relative;
-    font-size: 120px;
-    letter-spacing: 20px;
+    font-size: 95px;
+    letter-spacing: 7px;
     text-align: center;
     cursor: url("imgs/blue-butterfly.PNG"), auto;
   }
@@ -349,10 +475,11 @@ h6 {
      }
 
   #myfairy{
-    width: 300px;
+    width: 250px;
     height: auto;
     position: relative;
     float: right;
+    margin: 5px;
     transition-property: float;
     transition: ease all 0.5s;
     }
@@ -393,8 +520,13 @@ h6 {
 
   b:hover {
     font-size: 40px;
-    color: tomato;
+    color: gold;
     }
+
+  .definition {
+    max-width: 100%;
+    margin-right: 2px;
+  }
 
   .waves {
     float: right;
@@ -406,6 +538,78 @@ h6 {
     margin: 2px;
     }
 
+    .syllable-1 {
+      color: white;
+    }
+
+    .syllable-1:hover {
+      color: gold;
+      font-size: 25px;
+    }
+
+    .syllable-2 {
+      color: white;
+    }
+
+    .syllable-2:hover {
+      color: gold;
+      font-size: 25px;
+    }
+
+    .syllable-3 {
+      color: white;
+    }
+
+    .syllable-3:hover {
+      color: gold;
+      font-size: 25px;
+    }
+
+    .syllable-4 {
+      color: white;
+    }
+
+    .syllable-4:hover {
+      color: gold;
+      font-size: 25px;
+    }
+
+    .syllable-5 {
+      color: white;
+    }
+
+    .syllable-5:hover {
+      color: gold;
+      font-size: 25px;
+    }
+
+    .syllable-6 {
+      color: white;
+    }
+
+    .syllable-6:hover {
+      color: gold;
+      font-size: 25px;
+    }
+
+    .syllable-7 {
+      color: white;
+    }
+
+    .syllable-7:hover {
+      color: gold;
+      font-size: 25px;
+    }
+
+    .syllable-8 {
+      color: white;
+    }
+
+    .syllable-8:hover {
+      color: gold;
+      font-size: 25px;
+    }
+
   .batfairy {
     min-width: 25%;
     }
@@ -414,7 +618,7 @@ h6 {
 
 
 
-@media (max-width: 320) {
+@media (max-width: 320px) {
   body {
     background-color: #3d4a73;
     color: white;
