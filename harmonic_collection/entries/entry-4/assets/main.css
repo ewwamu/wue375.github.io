@@ -1,5 +1,6 @@
 html{
   cursor: url("imgs/blue-butterfly.PNG"), auto;
+  font-family: 'EB Garamond';
 }
 
 body {
@@ -70,14 +71,15 @@ h6 {
 }
 
 #batfairy {
-  max-width: 200%;
+  max-width: 90%;
   height: auto;
   left: 0px;
   right: 0px;
+  align-content: center;
   }
 
 #bat{
-  max-width: 200%;
+  max-width: 90%;
   height: auto;
   float: center;
   }
@@ -201,6 +203,7 @@ h6 {
     position: relative;
     font-size: 50px;
     margin: 0px;
+    max-width: 95%;
     }
 
   i {
@@ -296,17 +299,21 @@ h6 {
     }
 
   #batfairy {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
     left: 0px;
     right: 0px;
-    align-items: center;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
     }
 
   #bat{
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
-    align-items: center;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
     }
 
 
@@ -439,7 +446,7 @@ h6 {
     font-size: 35px;
     font-weight: normal;
     line-height: 50px;
-    max-width: 60%;
+    max-width: 80%;
     align-content: left;
     margin: 0px;
     }
@@ -626,7 +633,7 @@ h6 {
 
 @media (max-width: 560px) {
   body {
-    background-color: #a11a0b;
+    background-color: #8c5522;
     color: white;
     font-size: 18px;
     transition: ease all .5s;
@@ -986,7 +993,7 @@ h6 {
       }
 
       #batfairy {
-        max-width: 100%;
+        max-width: 90%;
       }
 
     }
