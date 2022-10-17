@@ -1,31 +1,47 @@
 body {
-background-color: #1d4e89;
+background-color: #e0cd9b;
+color: #12110f;
+font-family: 'EB Garamond';
+letter-spacing: 5px;
+font-weight: normal;
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 60px;
+  letter-spacing: 10px;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 10px;
+  font-family: 'EB Garamond';
 }
 
 a {
   font-size: 24px;
+  text-decoration: none;
+  font-weight: normal;
 }
 
 a:link {
-  color: white;
+  color: #12110f;
 }
 
 a:visited {
-  color: white;
+  color: #12110f;
 }
 
 a:hover {
-  color: #fff0ab;
+  color: #12110f;
+  font-weight: 800;
 }
 
 a:active {
-  color: white;
+  color: #12110f;
 }
 
 .entry-1:hover {
-  
+
 }
