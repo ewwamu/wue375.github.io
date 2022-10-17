@@ -63,8 +63,8 @@ a:visited {
 }
 
 a:hover {
-  color: #12110f;
-  font-weight: 400;
+  color: #8c5522;
+  font-weight: bold;
 }
 
 a:active {
@@ -91,7 +91,7 @@ details {
   width: 100px;
   height: 100px;
   transform: rotate(90deg);
-  position: left;
+  position: center;
   display: flex;
   border-radius: 50%;
   margin: left;

@@ -10,19 +10,31 @@ h1 {
   font-size: 60px;
   letter-spacing: 10px;
   font-weight: 800;
+  text-align: center;
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: normal;
   letter-spacing: 10px;
   font-family: 'EB Garamond';
+  text-align: center;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 10px;
+  font-family: 'EB Garamond';
+  text-align: center;
 }
 
 a {
-  font-size: 24px;
+  font-size: 30px;
   text-decoration: none;
   font-weight: normal;
+  text-align: center;
+
 }
 
 a:link {
@@ -34,8 +46,8 @@ a:visited {
 }
 
 a:hover {
-  color: #12110f;
-  font-weight: 800;
+  color: #8c5522;
+  font-weight: bold;
 }
 
 a:active {
