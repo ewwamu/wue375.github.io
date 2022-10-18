@@ -333,7 +333,7 @@ h6 {
 
     /* mouse over link */
     a:hover {
-      color: #fcba03;
+      color: #8c5522;
     }
 
     /* selected link */
@@ -551,6 +551,9 @@ h6 {
     max-width: 50%;
     }
 
+    a:hover {
+      color: #fcba03;
+    }
 
 }
 
@@ -649,6 +652,10 @@ h6 {
 
   #batfairy {
     max-width: 100%;
+    }
+
+    a:hover {
+      color: #8c5522;
     }
 
 }
