@@ -308,7 +308,7 @@ h6 {
   margin-right: auto;
     }
 
-  #bat{
+  #bat {
     max-width: 90%;
     height: auto;
     display: block;
@@ -316,6 +316,30 @@ h6 {
   margin-right: auto;
     }
 
+   a {
+    text-align: right;
+    margin: 5px;
+    float: right;
+    }
+
+    a:link {
+      color: white;
+    }
+
+    /* visited link */
+    a:visited {
+    color: white;
+    }
+
+    /* mouse over link */
+    a:hover {
+      color: #fcba03;
+    }
+
+    /* selected link */
+    a:active {
+      color: white;
+    }
 
 
 }
