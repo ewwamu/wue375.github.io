@@ -844,7 +844,7 @@ h6 {
 
     a:hover {
       color: #fcba03;
-      }      
+      }
 
 }
 
@@ -1031,5 +1031,8 @@ h6 {
         max-width: 90%;
       }
 
+      a:hover {
+        color: #fcba03;
+      }
     }
 }
