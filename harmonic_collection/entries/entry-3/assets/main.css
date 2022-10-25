@@ -1,14 +1,14 @@
 body {
 	background-image: linear-gradient(#040c2f, #0a154a, #07155c);
 	padding: 400px;
-	font-family: 'EB Garamond';
+	font-family: 'Fasthand';
 }
 
 h1 {
 	position: absolute;
 	left: 550px;
 	top: 600px;
-	font-family: 'EB Garamond';
+	font-family: 'Fasthand';
 	font-size: 72px;
 	color: white;
 }
@@ -885,7 +885,7 @@ p {
 	position: absolute;
 	left: 650px;
 	top: 700px;
-	font-family: 'EB Garamond';
+	font-family: 'Fasthand';
 	font-size: 32px;
 	color: white;
 }
