@@ -73,11 +73,9 @@ details {
 }
 
 .name {
-  position: absolute;
-  left: 980px;
-  top: 25px;
+  float: right;
   color: #12110f;
-  text-align: left;
+  text-align: right;
   font-family: 'Courier Prime', serif;
   font-weight: 700;
   font-size: 24px;
@@ -136,7 +134,7 @@ details {
 
 .container {
   position: relative;
-  width: 50%;
+  width: 100%;
 }
 
 .h1 {
@@ -171,4 +169,53 @@ details {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   white-space: nowrap;
+}
+
+@media (max-width: 2560px) {
+  .container {
+    position: relative;
+    width: 50%;
+  }
+  .h1 {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    position: relative;
+    width: 75%;
+  }
+  h1 {
+    display: block;
+    max-width: 90%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    position: relative;
+    width: 82%;
+  }
+  h1 {
+    font-size: 60px;
+    max-width: 90%;
+    height: auto;
+  }
+}
+
+@media (max-width: 560px) {
+  .container {
+    position: relative;
+    width: 100%;
+  }
+  h1 {
+    font-size: 56px;
+    display: block;
+    width: 80%;
+    height: auto;
+  }
 }
