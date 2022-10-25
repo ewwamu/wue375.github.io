@@ -1,0 +1,311 @@
+html {
+  cursor: url("imgs/cat.PNG"), auto;
+}
+
+body {
+background-color: #0b2457;
+font-family: 'EB Garamond';
+}
+
+h1 {
+  color: chocolate;
+  text-align: center;
+  transition: ease all 1s;
+  margin: 0px;
+}
+
+h2 {
+  color: chocolate;
+  text-align: center;
+  transition: ease all 1s;
+  margin: 0px;
+}
+
+.week {
+  display: flex;
+}
+
+.day {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+
+.holiday {
+  flex: 50%;
+}
+
+.holiday-1 {
+  opacity: 0%;
+  transition: ease all 1s;
+}
+
+.holiday:hover .holiday-1 {
+  opacity: 100%;
+}
+
+.holiday-2 {
+  opacity: 0%;
+  transition: ease all 1s;
+}
+
+.holiday:hover .holiday-2 {
+  opacity: 100%;
+}
+
+.holiday-3 {
+  opacity: 0%;
+  transition: ease all 1s;
+}
+
+.holiday:hover .holiday-3 {
+  opacity: 100%;
+}
+
+.holiday-4 {
+  opacity: 0%;
+  transition: ease all 1s;
+}
+
+.holiday:hover .holiday-4 {
+  opacity: 100%;
+}
+
+.holiday-5 {
+  opacity: 0%;
+  transition: ease all 1s;
+}
+
+.holiday:hover .holiday-5 {
+  opacity: 100%;
+}
+
+.holiday-6 {
+  opacity: 0%;
+  transition: ease all 1s;
+}
+
+.holiday:hover .holiday-6 {
+  opacity: 100%;
+}
+
+.holiday-7 {
+  opacity: 0%;
+  transition: ease all 1s;
+}
+
+.holiday:hover .holiday-7 {
+  opacity: 100%;
+}
+
+.holiday-8 {
+  opacity: 0%;
+  transition: ease all 1s;
+}
+
+.holiday:hover .holiday-8 {
+  opacity: 100%;
+}
+
+.holiday-9 {
+  opacity: 0%;
+  transition: ease all 1s;
+}
+
+.holiday:hover .holiday-9 {
+  opacity: 100%;
+}
+
+.holiday-10 {
+  opacity: 0%;
+  transition: ease all 1s;
+}
+
+.holiday:hover .holiday-10 {
+  opacity: 100%;
+}
+
+.holiday-11 {
+  opacity: 0%;
+  transition: ease all 1s;
+}
+
+.holiday:hover .holiday-11 {
+  opacity: 100%;
+}
+
+.holiday-12 {
+  opacity: 0%;
+  transition: ease all 1s;
+}
+
+.holiday:hover .holiday-12 {
+  opacity: 100%;
+}
+
+.holiday-13 {
+  opacity: 0%;
+  transition: ease all 1s;
+}
+
+.holiday:hover .holiday-13 {
+  opacity: 100%;
+}
+
+.holiday-14 {
+  opacity: 0%;
+  transition: ease all 1s;
+}
+
+.holiday:hover .holiday-14 {
+  opacity: 100%;
+}
+
+.week:first-of-type .day:first-of-type {
+  margin-left: 71.4%;
+}
+
+.week:last-of-type .day:last-of-type {
+  margin-right: 0;
+}
+
+.month {
+  max-width: 1050px;
+  margin: 20px auto;
+}
+
+.week {
+  height: 150px;
+}
+
+.day {
+  color: chocolate;
+  padding: 6px;
+  background-color: transparentize(white, 0.30);
+  box-shadow:
+    2px 2px #F9A440,
+    inset 2px 2px 0 0 #F9A440;
+}
+
+@media (max-width:2560px){
+  html {
+    cursor: url("imgs/cat.PNG"), auto;
+  }
+  h1 {
+    color: chocolate;
+    text-align: center;
+    font-size: 100px;
+    letter-spacing: 15px;
+  }
+  h2 {
+    color: chocolate;
+    text-align: center;
+    font-size: 60px;
+    transition: ease all 1s;
+  }
+
+  .holiday {
+    text-align: center;
+    vertical-align: center;
+    font-size: 19px;
+  }
+
+  .zcj-holiday {
+    text-align: center;
+    vertical-align: center;
+  }
+
+}
+
+@media (max-width:1024px){
+  html {
+    cursor: url("imgs/cat.PNG"), auto;
+  }
+
+  h1 {
+    color: chocolate;
+    text-align: center;
+    font-size: 72px;
+    letter-spacing: 5px;
+  }
+  h2 {
+    color: chocolate;
+    text-align: center;
+    font-size: 36px;
+    transition: ease all 1s;
+  }
+
+  .holiday {
+    text-align: center;
+    vertical-align: center;
+    font-size: 16px;
+  }
+
+  .zcj-holiday {
+    text-align: center;
+    vertical-align: center;
+  }
+
+}
+
+@media (max-width:768px){
+  html {
+    cursor: url("imgs/cat.PNG"), auto;
+  }
+
+  h1 {
+    color: chocolate;
+    text-align: center;
+    font-size: 56px;
+    letter-spacing: 2px;
+  }
+  h2 {
+    color: chocolate;
+    text-align: center;
+    font-size: 24px;
+    transition: ease all 1s;
+  }
+
+  .holiday {
+    text-align: center;
+    vertical-align: center;
+    font-size: 14px;
+  }
+
+  .zcj-holiday {
+    text-align: center;
+    vertical-align: center;
+  }
+
+}
+
+@media (max-width:560px){
+  html {
+    cursor: url("imgs/cat.PNG"), auto;
+  }
+
+  h1 {
+    color: chocolate;
+    text-align: center;
+    font-size: 56px;
+    letter-spacing: 2px;
+  }
+  h2 {
+    color: chocolate;
+    text-align: center;
+    font-size: 24px;
+    transition: ease all 1s;
+  }
+
+  .holiday {
+    text-align: center;
+    vertical-align: center;
+    font-size: 10px;
+  }
+
+  .zcj-holiday {
+    text-align: center;
+    vertical-align: center;
+  }
+
+}

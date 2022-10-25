@@ -1,6 +1,10 @@
 body {
-  background-color: #e0cd9b;
-  }
+background-image: url("imgs/paper-bg2.JPEG");
+background-repeat: no-repeat;
+background-size: cover;
+padding: 10px;
+background-color: #e0cd9b;
+}
 
 
 h1 {
@@ -11,17 +15,7 @@ h1 {
   text-align: left;
 }
 
-h1 {
-  -webkit-animation: none;
-  -moz-animation: none;
-  animation: none;
-  transition: ease all 1s;
-}
 
-h1:hover {
-  background: linear-gradient(270deg, #12110f, #12110f, #12110f, #12110f, #12110f);
-  background-size: 1000% 1000%;
-  color: #e0cd9b;
 
   -webkit-animation: slideBackground 3s ease infinite;
   -moz-animation: slideBackground 3s ease infinite;
@@ -47,7 +41,7 @@ h1:hover {
 
 a {
   color: #12110f;
-  font-size: 16px;
+  font-size: 24px;
   text-align: left;
   font-family: 'Courier Prime', serif;
   font-weight: 700;
@@ -55,11 +49,11 @@ a {
 }
 
 a:link {
-  color: #12110f;
+  color: #e0cd9b;
 }
 
 a:visited {
-  color: #12110f;
+  color: #e0cd9b;
 }
 
 a:hover {
@@ -68,7 +62,7 @@ a:hover {
 }
 
 a:active {
-  color: #12110f;
+  color: #e0cd9b;
 }
 
 details {
@@ -76,6 +70,21 @@ details {
   text-align: left;
   font-family: 'Courier Prime', serif;
   font-weight: 700;
+}
+
+.name {
+  position: absolute;
+  left: 980px;
+  top: 25px;
+  color: #12110f;
+  text-align: left;
+  font-family: 'Courier Prime', serif;
+  font-weight: 700;
+  font-size: 24px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #12110f;
+  padding: 5px;
 }
 
 .left {
@@ -123,4 +132,43 @@ details {
   text-align: center;
   transform: rotate(0deg);
   cursor: pointer;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.h1 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
 }

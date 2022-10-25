@@ -1,0 +1,94 @@
+body {
+  background-image: url("imgs/paper-bg-copy.JPEG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+  background-color: #e0cd9b;
+  }
+
+
+h1 {
+  color: #12110f;
+  font-family: 'EB Garamond', serif;
+  font-size: 65px;
+  letter-spacing: 20px;
+  text-align: left;
+}
+
+h1 {
+  -webkit-animation: none;
+  -moz-animation: none;
+  animation: none;
+  transition: ease all 1s;
+}
+
+h1:hover {
+  background: linear-gradient(270deg, #12110f, #12110f, #12110f, #12110f, #12110f);
+  background-size: 1000% 1000%;
+  color: #e0cd9b;
+
+  -webkit-animation: slideBackground 3s ease infinite;
+  -moz-animation: slideBackground 3s ease infinite;
+  animation: slideBackground 3s ease infinite;
+}
+
+    @-webkit-keyframes slideBackground {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @-moz-keyframes slideBackground {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @keyframes slideBackground {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+
+    }
+
+a {
+  color: #12110f;
+  font-size: 16px;
+  text-align: left;
+  font-family: 'Courier Prime', serif;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a:link {
+  color: #12110f;
+}
+
+a:visited {
+  color: #12110f;
+}
+
+a:hover {
+  color: #8c5522;
+  font-weight: bold;
+}
+
+a:active {
+  color: #12110f;
+}
+
+details {
+  color: #12110f;
+  text-align: left;
+  font-family: 'Courier Prime', serif;
+  font-weight: 700;
+}
+
+summary {
+  font-size: 27px;
+}
+
+.left {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
