@@ -1,8 +1,8 @@
 body {
-  background-image: url("imgs/paper-bg-copy.JPEG");
+  background-image: url("imgs/paper-bg.JPEG");
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 10px;
   background-color: #e0cd9b;
   }
 
@@ -91,4 +91,10 @@ summary {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.container {
+  align-content: center;
+  display: block;
+  align-self: center;
 }

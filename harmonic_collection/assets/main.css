@@ -4,7 +4,7 @@ color: #12110f;
 font-family: 'EB Garamond';
 letter-spacing: 5px;
 font-weight: normal;
-background-image: url("imgs/paper-bg-copy2.JPEG");
+background-image: url("imgs/paper-bg-copy.JPEG");
 background-repeat: no-repeat;
 background-size: cover;
 padding: 10px;
@@ -27,7 +27,7 @@ h2 {
 }
 
 h3 {
-  font-size: 28px;
+  font-size: 60px;
   font-weight: bold;
   letter-spacing: 10px;
   font-family: 'EB Garamond';
