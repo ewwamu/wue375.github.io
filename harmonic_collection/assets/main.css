@@ -9,6 +9,7 @@ background-repeat: no-repeat;
 background-size: cover;
 padding: 10px;
 background-color: #e0cd9b;
+transition: ease all 1s;
 }
 
 h1 {
@@ -16,6 +17,8 @@ h1 {
   letter-spacing: 10px;
   font-weight: 800;
   text-align: center;
+  transition: ease all 1s;
+
 }
 
 h2 {
@@ -61,4 +64,20 @@ a:active {
 
 .entry-1:hover {
 
+}
+
+@media (max-width: 560px) {
+body {
+  transition: ease all 1s;
+
+}
+
+  h1 {
+    font-size: 130px;
+    letter-spacing: 10px;
+    font-weight: 800;
+    text-align: center;
+    transition: ease all 1s;
+
+  }
 }
