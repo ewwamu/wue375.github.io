@@ -1,0 +1,88 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+}
+
+
+/* clock hands */
+
+#clock div {
+	position: absolute;
+  	transform-origin: center left;
+}
+
+#hour {
+	width: 250px;
+	height: 22px;
+	top: calc(50% - 11px);
+	left: calc(50% + 5px);
+  	background: red;
+  	transform: rotate(180deg);
+  	animation: rotating 12960000s linear infinite;
+}
+
+#minute {
+	width: 300px;
+	height: 16px;
+	top: calc(50% - 8px);	
+	left: calc(50% + 5px);
+  	background: white;
+  	animation: rotating 3600s linear infinite;
+}
+
+#second {
+	width: 300px;
+	height: 4px;
+	top: calc(50% - 2px);
+	left: calc(50% + 5px);		
+  	background: #fdcf45;
+  	animation: rotating 60s linear infinite;
+
+}
+
+#center {
+	width: 60px;
+	height: 60px;
+	left: calc(50% - 30px);
+	top: calc(50% - 30px);	
+  	border-radius: 30px;
+  	background: red;
+}
+
+
+/* hover */
+
+#clock:hover #hour {
+  	animation: rotating 12960ms linear infinite;
+}
+
+#clock:hover #minute {
+  	animation: rotating 360ms linear infinite;
+
+}
+
+#clock:hover #second {
+  	animation: rotating 60ms linear infinite;
+
+}
+
+
+/* rotation */
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

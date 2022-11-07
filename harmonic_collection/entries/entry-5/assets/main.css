@@ -1,5 +1,5 @@
 html {
-  cursor: url("imgs/cat.PNG"), auto;
+  cursor: url("imgs/angry-cat.PNG"), auto;
 }
 
 body {
@@ -219,7 +219,7 @@ h2 {
 
 @media (max-width:1024px){
   html {
-    cursor: url("imgs/cat.PNG"), auto;
+    cursor: url("imgs/angry-cat.PNG"), auto;
   }
 
   h1 {
@@ -245,7 +245,7 @@ h2 {
 
 @media (max-width:768px){
   html {
-    cursor: url("imgs/cat.PNG"), auto;
+    cursor: url("imgs/angry-cat.PNG"), auto;
   }
 
   h1 {
@@ -276,7 +276,7 @@ h2 {
 
 @media (max-width:560px){
   html {
-    cursor: url("imgs/cat.PNG"), auto;
+    cursor: url("imgs/angry-cat.PNG"), auto;
   }
 
   h1 {

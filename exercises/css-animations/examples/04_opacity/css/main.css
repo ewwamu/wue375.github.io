@@ -1,0 +1,50 @@
+
+html, body, * {
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+	}
+
+        
+.canvas {
+    width: 1200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+        }
+        
+.circle1 {
+    background-color: red;
+    border-radius: 50%;
+    height: 595px;
+    width: 595px;
+    float: left;
+    transform: translateX(100px);   
+    
+    animation-name: opacity;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.circle2 {
+    background-color: blue;
+    border-radius: 50%;
+    height: 595px;
+    width: 595px;
+    width: 595px;
+    float: left;
+    transform: translateX(-100px);
+    
+    animation-name: opacity;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes opacity {
+    from {opacity: 1}
+    to {opacity: .1}
+}

@@ -1,0 +1,149 @@
+body {
+ background-color: pink;
+}
+
+.shape {
+  line-height: 300px;
+  position: absolute;
+  top: 25%;
+  width: 300px;
+  height: 300px;
+  background: skyblue;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: red;
+  animation: spin-move 3s steps(2, start) infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes spin-move {
+  0% {
+    left: 0%;
+    background: skyblue;
+    color: red;
+  }
+
+  100% {
+    left: 70%;
+    background: red;
+    border-radius: 0%;
+    transform: rotate(360deg);
+    color: skyblue;
+  }
+}
+
+@media (max-width:1024px) {
+  body {
+   background-color: cadetblue;
+  }
+
+  .shape {
+    line-height: 300px;
+    position: absolute;
+    top: 25%;
+    width: 300px;
+    height: 300px;
+    background: skyblue;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: red;
+    animation: spin-move 3s steps(2, start) infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes spin-move {
+    0% {
+      left: 0%;
+      background: skyblue;
+      color: red;
+    }
+
+    100% {
+      left: 67%;
+      background: red;
+      border-radius: 0%;
+      transform: rotate(360deg);
+      color: skyblue;
+    }
+  }
+}
+
+@media (max-width:768px) {
+  body {
+   background-color: lightsalmon;
+  }
+
+  .shape {
+    line-height: 300px;
+    position: absolute;
+    top: 25%;
+    width: 300px;
+    height: 300px;
+    background: skyblue;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: red;
+    animation: spin-move 3s steps(2, start) infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes spin-move {
+    0% {
+      left: 0%;
+      background: skyblue;
+      color: red;
+    }
+
+    100% {
+      left: 57%;
+      background: red;
+      border-radius: 0%;
+      transform: rotate(360deg);
+      color: skyblue;
+    }
+  }
+}
+
+@media (max-width:560px) {
+  body {
+   background-color: khaki;
+  }
+
+  .shape {
+    line-height: 300px;
+    position: absolute;
+    top: 25%;
+    width: 300px;
+    height: 300px;
+    background: skyblue;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: red;
+    animation: spin-move 3s steps(2, start) infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes spin-move {
+    0% {
+      left: 0%;
+      background: skyblue;
+      color: red;
+    }
+
+    100% {
+      left: 42%;
+      background: red;
+      border-radius: 0%;
+      transform: rotate(360deg);
+      color: skyblue;
+    }
+  }
+}

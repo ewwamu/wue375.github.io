@@ -1,0 +1,28 @@
+body {
+background-color: beige;
+}
+
+.shape {
+  width: 100px;
+  height: 100px;
+  background: skyblue;
+  border-radius: 50%;
+  animation: scale 2s steps(2, start) infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes scale {
+  0% {
+    width: 200px;
+    height: 200px;
+    background: skyblue;
+    border-radius: 50%;
+ }
+
+   100% {
+     width: 400px;
+     height: 400px;
+     background: skyblue;
+     border-radius: 0%;
+ }
+}

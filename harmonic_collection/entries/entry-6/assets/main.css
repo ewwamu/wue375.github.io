@@ -1,0 +1,549 @@
+html {
+  cursor: url("imgs/ouch.PNG"), auto;
+transition: ease-in-out 1s;
+}
+
+body {
+background-color: sandybrown;
+transition: ease-in-out 1s;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+p {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.title {
+  font-size: 80px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: 1px;
+  margin-right: 1px;
+  text-align: center;
+  transition: ease-in-out 1s;
+}
+
+.pronunciation {
+  font-size: 48px;
+  text-align: center;
+  transition: ease-in-out 1s;
+}
+
+.adj {
+  font-size: 32px;
+  font-weight: normal;
+  text-align: center;
+  transition: ease-in-out 1s;
+}
+
+.container {
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  float: right;
+  background-color: beige;
+  display: flex;
+  flex-direction: row;
+  text-align: right;
+}
+
+.date {
+  flex-grow: 1;
+  flex-shrink: 1;
+  font-weight: normal;
+}
+
+.origin {
+  max-width: 40%;
+  transition: ease-in-out 1s;
+}
+
+.container2 {
+  padding: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  float: left;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: left;
+  color: sandybrown;
+  max-width: 40%;
+}
+
+.ex {
+  flex-grow: 1;
+  flex-shrink: 1;
+  font-size: 18px;
+}
+
+.ex-from {
+  flex-grow: 1;
+  flex-shrink: 1;
+  font-size: 14px;
+}
+
+a {
+  padding: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  float: right;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: right;
+  color: white;
+  max-width: 40%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: orangered;
+}
+
+a:active {
+  color: white;
+}
+
+img {
+  height: 300px;
+  float: left;
+  top: 0px;
+  position: absolute;
+  animation: move 11s linear infinite alternate;
+  animation-timing-function: ease-in-out;
+}
+
+img:hover {
+  cursor: url("imgs/red-ouch.PNG"), auto;
+}
+
+@keyframes move {
+    0%   {
+      top: 0px;
+      left: 0px;
+    }
+    25% {
+      top: 400px;
+      left: 800px;
+      transform: scaleX(-1);
+    }
+    50%   {
+      top: 200px;
+      left: 0px;
+      transform: scaleX(1);
+
+    }
+    75%   {
+      top: 300px;
+      left: 800px;
+      transform: scaleX(-1);
+
+    }
+
+    100% {
+      top: 400px;
+      left: 0px;
+      transform: scaleX(1);
+
+    }
+}
+
+@media (max-width:1024px) {
+  html {
+    cursor: url("imgs/ouch.PNG"), auto;
+  }
+  body {
+  background-color: sandybrown;
+  }
+
+  .title {
+    font-size: 70px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    text-align: center;
+  }
+
+  img {
+    height: 300px;
+    float: left;
+    top: 0px;
+    position: absolute;
+    animation: move 11s linear infinite alternate;
+    animation-timing-function: ease-in-out;
+  }
+
+  img:hover {
+    cursor: url("imgs/red-ouch.PNG"), auto;
+  }
+
+  @keyframes move {
+      0%   {
+        top: 0px;
+        left: 0px;
+      }
+      25% {
+        top: 400px;
+        left: 730px;
+        transform: scaleX(-1);
+      }
+      50%   {
+        top: 200px;
+        left: 0px;
+        transform: scaleX(1);
+
+      }
+      75%   {
+        top: 300px;
+        left: 730px;
+        transform: scaleX(-1);
+
+      }
+
+      100% {
+        top: 400px;
+        left: 0px;
+        transform: scaleX(1);
+
+      }
+}
+
+@media (max-width:896px) {
+  html {
+    cursor: url("imgs/ouch.PNG"), auto;
+  }
+  body {
+  background-color: sandybrown;
+  }
+
+  img {
+    height: 300px;
+    float: left;
+    top: 0px;
+    position: absolute;
+    animation: move 11s linear infinite alternate;
+    animation-timing-function: ease-in-out;
+  }
+
+  img:hover {
+    cursor: url("imgs/red-ouch.PNG"), auto;
+  }
+
+  @keyframes move {
+      0%   {
+        top: 0px;
+        left: 0px;
+      }
+      25% {
+        top: 400px;
+        left: 530px;
+        transform: scaleX(-1);
+      }
+      50%   {
+        top: 200px;
+        left: 0px;
+        transform: scaleX(1);
+
+      }
+      75%   {
+        top: 300px;
+        left: 530px;
+        transform: scaleX(-1);
+
+      }
+
+      100% {
+        top: 400px;
+        left: 0px;
+        transform: scaleX(1);
+
+      }
+
+}
+
+@media (max-width:768px) {
+  html {
+    cursor: url("imgs/ouch.PNG"), auto;
+  }
+  body {
+  background-color: sandybrown;
+  }
+
+  .title {
+    font-size: 60px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    text-align: center;
+  }
+
+  .origin {
+    max-width: 50%;
+  }
+
+  img {
+    height: 300px;
+    float: left;
+    top: 0px;
+    position: absolute;
+    animation: move 11s linear infinite alternate;
+    animation-timing-function: ease-in-out;
+  }
+
+  img:hover {
+    cursor: url("imgs/red-ouch.PNG"), auto;
+  }
+
+  @keyframes move {
+      0%   {
+        top: 0px;
+        left: 0px;
+      }
+      25% {
+        top: 400px;
+        left: 500px;
+        transform: scaleX(-1);
+      }
+      50%   {
+        top: 200px;
+        left: 0px;
+        transform: scaleX(1);
+
+      }
+      75%   {
+        top: 300px;
+        left: 500px;
+        transform: scaleX(-1);
+
+      }
+
+      100% {
+        top: 400px;
+        left: 0px;
+        transform: scaleX(1);
+
+      }
+
+}
+
+@media (max-width:664px) {
+  html {
+    cursor: url("imgs/ouch.PNG"), auto;
+  }
+  body {
+  background-color: sandybrown;
+  }
+
+  .title {
+    font-size: 50px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    text-align: center;
+  }
+
+  .origin {
+    max-width: 50%;
+  }
+
+  img {
+    height: 300px;
+    float: left;
+    top: 0px;
+    position: absolute;
+    animation: move 11s linear infinite alternate;
+    animation-timing-function: ease-in-out;
+  }
+
+  img:hover {
+    cursor: url("imgs/red-ouch.PNG"), auto;
+  }
+
+  @keyframes move {
+      0%   {
+        top: 0px;
+        left: 0px;
+      }
+      25% {
+        top: 400px;
+        left: 340px;
+        transform: scaleX(-1);
+      }
+      50%   {
+        top: 200px;
+        left: 0px;
+        transform: scaleX(1);
+
+      }
+      75%   {
+        top: 300px;
+        left: 340px;
+        transform: scaleX(-1);
+
+      }
+
+      100% {
+        top: 400px;
+        left: 0px;
+        transform: scaleX(1);
+
+      }
+
+}
+
+@media (max-width:560px) {
+  html {
+    cursor: url("imgs/ouch.PNG"), auto;
+  }
+  body {
+  background-color: sandybrown;
+  }
+
+  .title {
+    font-size: 40px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    text-align: center;
+  }
+
+  .pronunciation {
+    font-size: 38px;
+    text-align: center;
+  }
+
+  .adj {
+    font-size: 22px;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  .origin {
+    max-width: 70%;
+  }
+
+  img {
+    height: 300px;
+    float: left;
+    top: 0px;
+    position: absolute;
+    animation: move 11s linear infinite alternate;
+    animation-timing-function: ease-in-out;
+  }
+
+  img:hover {
+    cursor: url("imgs/red-ouch.PNG"), auto;
+  }
+
+  @keyframes move {
+      0%   {
+        top: 0px;
+        left: 0px;
+      }
+      25% {
+        top: 400px;
+        left: 250px;
+        transform: scaleX(-1);
+      }
+      50%   {
+        top: 200px;
+        left: 0px;
+        transform: scaleX(1);
+
+      }
+      75%   {
+        top: 300px;
+        left: 250px;
+        transform: scaleX(-1);
+
+      }
+
+      100% {
+        top: 400px;
+        left: 0px;
+        transform: scaleX(1);
+
+      }
+
+}
+
+@media (max-width:480px) {
+  html {
+    cursor: url("imgs/ouch.PNG"), auto;
+  }
+  body {
+  background-color: sandybrown;
+  }
+
+  img {
+    height: 300px;
+    float: left;
+    top: 0px;
+    position: absolute;
+    animation: move 11s linear infinite alternate;
+    animation-timing-function: ease-in-out;
+  }
+
+  img:hover {
+    cursor: url("imgs/red-ouch.PNG"), auto;
+  }
+
+  @keyframes move {
+      0%   {
+        top: 0px;
+        left: 0px;
+      }
+      25% {
+        top: 400px;
+        left: 200px;
+        transform: scaleX(-1);
+      }
+      50%   {
+        top: 200px;
+        left: 0px;
+        transform: scaleX(1);
+
+      }
+      75%   {
+        top: 300px;
+        left: 200px;
+        transform: scaleX(-1);
+
+      }
+
+      100% {
+        top: 400px;
+        left: 0px;
+        transform: scaleX(1);
+
+      }
+
+}

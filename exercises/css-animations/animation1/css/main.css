@@ -1,0 +1,17 @@
+body {
+    animation: change-color 8s steps(4, start) infinite;
+    animation-direction: alternate;
+}
+
+@keyframes change-color {
+   0% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: olive;
+  }
+
+    100% {
+    background-color: skyblue;
+  }
+}
