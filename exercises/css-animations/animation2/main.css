@@ -7,7 +7,7 @@ background-color: gold;
   height: 100px;
   background: tomato;
   border-radius: 50%;
-  animation: scale 5s steps(3, start) infinite;
+  animation: scale 2s steps(2, start) infinite;
   animation-timing-function: ease-in-out;
 }
 
@@ -17,12 +17,6 @@ background-color: gold;
     height: 200px;
     background: tomato;
     border-radius: 50%
- }
- 50% {
-   width: 300px;
-   height: 300px;
-   background: tomato;
-   border-radius: 50%
  }
 
    100% {
