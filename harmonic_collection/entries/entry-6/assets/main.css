@@ -4,7 +4,7 @@ transition: ease-in-out 1s;
 }
 
 body {
-background-color: sandybrown;
+background-color: #E7A76A;
 transition: ease-in-out 1s;
 }
 
@@ -66,6 +66,7 @@ p {
 .origin {
   max-width: 40%;
   transition: ease-in-out 1s;
+  line-height: 25px;
 }
 
 .container2 {
@@ -78,7 +79,7 @@ p {
   flex-direction: column;
   flex-wrap: wrap;
   text-align: left;
-  color: sandybrown;
+  color: #E7A76A;
   max-width: 40%;
 }
 
@@ -177,7 +178,7 @@ img:hover {
     cursor: url("imgs/ouch.PNG"), auto;
   }
   body {
-  background-color: sandybrown;
+  background-color: #E7A76A;
   }
 
   .title {
@@ -238,7 +239,7 @@ img:hover {
     cursor: url("imgs/ouch.PNG"), auto;
   }
   body {
-  background-color: sandybrown;
+  background-color: #E7A76A;
   }
 
   img {
@@ -291,7 +292,7 @@ img:hover {
     cursor: url("imgs/ouch.PNG"), auto;
   }
   body {
-  background-color: sandybrown;
+  background-color: #E7A76A;
   }
 
   .title {
@@ -357,7 +358,7 @@ img:hover {
     cursor: url("imgs/ouch.PNG"), auto;
   }
   body {
-  background-color: sandybrown;
+  background-color: #E7A76A;
   }
 
   .title {
@@ -423,7 +424,7 @@ img:hover {
     cursor: url("imgs/ouch.PNG"), auto;
   }
   body {
-  background-color: sandybrown;
+  background-color: #E7A76A;
   }
 
   .title {
@@ -500,7 +501,7 @@ img:hover {
     cursor: url("imgs/ouch.PNG"), auto;
   }
   body {
-  background-color: sandybrown;
+  background-color: #E7A76A;
   }
 
   img {
