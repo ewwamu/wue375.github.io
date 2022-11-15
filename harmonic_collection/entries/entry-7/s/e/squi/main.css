@@ -57,6 +57,50 @@ i {
 
 }
 
+a {
+  text-align: center;
+  position: relative;
+  color: paleturquoise;
+  text-decoration: none;
+  float: right;
+
+}
+
+a:link {
+  color: paleturquoise;
+}
+
+a:visited {
+  color: paleturquoise;
+}
+
+a:hover {
+  color: white;
+  animation:  shake 0.8s  ;
+
+}
+
+a:active {
+  color: white;
+}
+
+ @keyframes shake{
+   0%{
+     transform: translateX(0)
+   }
+   25%{
+     transform: translateX(25px);
+   }
+
+   50%{
+     transform: translateX(-25px);
+   }
+   100%{
+     transform: translateX(0px);
+   }
+ }
+
+
 @media (max-width:768px) {
 
 body {
@@ -103,4 +147,47 @@ i {
   font-size: 14px;
   color: black;
 }
+
+a {
+  text-align: center;
+  position: relative;
+  color: paleturquoise;
+  text-decoration: none;
+  float: right;
+
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: white;
+  animation:  shake 0.8s  ;
+
+}
+
+a:active {
+  color: black;
+}
+
+ @keyframes shake{
+   0%{
+     transform: translateX(0)
+   }
+   25%{
+     transform: translateX(25px);
+   }
+
+   50%{
+     transform: translateX(-25px);
+   }
+   100%{
+     transform: translateX(0px);
+   }
+ }
 }

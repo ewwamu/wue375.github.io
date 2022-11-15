@@ -67,22 +67,20 @@ transition: ease-in-out 1s;
 }
 
 a {
-
-  color: white;
-  max-width: 40%;
-  flex-grow: 1;
-  flex-shrink: 1;
-  font-size: 36px;
+  text-align: center;
+  position: relative;
+  color: lightcoral;
   text-decoration: none;
-color: lightcoral;
+  float: right;
+
 }
 
 a:link {
-  color: white;
+  color: lightcoral;
 }
 
 a:visited {
-  color: white;
+  color: lightcoral;
 }
 
 a:hover {
@@ -92,7 +90,7 @@ a:hover {
 }
 
 a:active {
-  color: white;
+  color: lightcoral;
 }
 
  @keyframes shake{
@@ -176,7 +174,6 @@ a:active {
      color: white;
      flex-grow: 1;
      flex-shrink: 1;
-     font-size: 36px;
      text-decoration: none;
      padding: 20px;
      padding-left: 25px;
@@ -192,7 +189,7 @@ a:active {
    }
 
    a:hover {
-     color: black;
+     color: white;
      animation:  shake 0.8s  ;
 
    }
