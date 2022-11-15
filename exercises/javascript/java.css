@@ -1,0 +1,56 @@
+body {
+  background-image: url(assets/track.jpeg);
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-position: center;
+  color: white;
+font-family: 'VT323', monospace;
+text-align: center;
+}
+
+h1 {
+  /* font-family: 'Libre Barcode 39', cursive; */
+  font-size: 120px;
+  text-align: center;
+}
+
+section {
+  display:  flex;
+  flex-direction:  column;
+  justify-content: center;
+  align-items:  center;
+  height:  100vh;
+}
+
+img {
+  width: 30%;
+}
+
+
+
+
+.button {
+  padding: 20px 50px;
+  border-radius: 30px;
+  background-color:  white;
+  color:  black;
+  font-size:  60px;
+  font-size: 20px;
+  text-align:  center;
+  text-align:  center;
+  transition:  all 100ms;
+}
+/*
+
+.button:hover {
+  background-color: #DEB887;
+  cursor:  pointer;
+}
+
+.buttonOn {
+  background-color:  black;
+  color:  white;
+}
+
+.light {
+  background-color: papayawhip;
+} */
