@@ -30,6 +30,12 @@ transition: ease-in-out 1s;
 
 }
 
+.figma {
+  position: absolute;
+  top: 95%;
+  left: 90%;
+}
+
 a {
   color: white;
   flex-grow: 1;
