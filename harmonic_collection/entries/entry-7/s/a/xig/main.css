@@ -1,0 +1,219 @@
+body  {
+  background-color: black;
+  font-family: 'Sono', sans-serif;
+  transition: ease-in-out 1s;
+
+}
+
+
+h1 {
+text-align: center;
+font-size: 72px;
+color: lightcoral;
+transition: ease-in-out 1s;
+
+}
+
+
+h2 {
+font-size: 60px;
+padding: 20px;
+padding-left: 25px;
+padding-right: 25px;
+text-align: center;
+color: lightcoral;
+transition: ease-in-out 1s;
+
+}
+
+h3 {
+text-align: center;
+font-size: 48px;
+color: lightcoral;
+transition: ease-in-out 1s;
+
+}
+
+h4 {
+text-align: center;
+font-size: 24px;
+color: lightcoral;
+transition: ease-in-out 1s;
+
+}
+
+p {
+text-align: center;
+font-size: 24px;
+color: lightcoral;
+transition: ease-in-out 1s;
+
+}
+
+.a {
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 36px;
+color: lightcoral;
+transition: ease-in-out 1s;
+
+}
+
+a {
+
+  color: white;
+  max-width: 40%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  font-size: 36px;
+  text-decoration: none;
+color: lightcoral;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: white;
+  animation:  shake 0.8s  ;
+
+}
+
+a:active {
+  color: white;
+}
+
+ @keyframes shake{
+   0%{
+     transform: translateX(0)
+   }
+   25%{
+     transform: translateX(25px);
+   }
+
+   50%{
+     transform: translateX(-25px);
+   }
+   100%{
+     transform: translateX(0px);
+   }
+ }
+
+ @media (max-width:768px) {
+
+   body {
+     background-color: lightcoral;
+     font-family: 'Sono', sans-serif;
+     transition: ease-in-out 1s;
+
+   }
+
+   h1 {
+   text-align: center;
+   font-size: 50px;
+   color: black;
+ }
+
+   h2 {
+ color: black;
+ font-size: 36px;
+
+ }
+
+   h3 {
+ color: black;
+ }
+
+ h4 {
+ color: black;
+ }
+
+   p {
+ text-align: center;
+ font-size: 24px;
+ color: black;
+ }
+
+   .a {
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+   padding-left: 25px;
+   padding-right: 25px;
+   background-color: black;
+   display: flex;
+   flex-wrap: wrap;
+   text-align: center;
+   font-size: 36px;
+
+ }
+
+   .e {
+     align-items: center;
+     justify-content: center;
+     padding: 20px;
+     padding-left: 25px;
+     padding-right: 25px;
+     background-color: black;
+     display: flex;
+     flex-wrap: wrap;
+     text-align: center;
+   }
+
+   a {
+     color: white;
+     flex-grow: 1;
+     flex-shrink: 1;
+     font-size: 36px;
+     text-decoration: none;
+     padding: 20px;
+     padding-left: 25px;
+     padding-right: 25px;
+   }
+
+   a:link {
+     color: black;
+   }
+
+   a:visited {
+     color: black;
+   }
+
+   a:hover {
+     color: black;
+     animation:  shake 0.8s  ;
+
+   }
+
+   a:active {
+     color: black;
+   }
+
+    @keyframes shake{
+      0%{
+        transform: translateX(0)
+      }
+      25%{
+        transform: translateX(25px);
+      }
+
+      50%{
+        transform: translateX(-25px);
+      }
+      100%{
+        transform: translateX(0px);
+      }
+    }
+ }

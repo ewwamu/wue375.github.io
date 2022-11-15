@@ -1,0 +1,237 @@
+body {
+  background-color: mediumseagreen;
+  font-family: 'Sono', sans-serif;
+  transition: ease-in-out 1s;
+
+}
+
+
+h1 {
+text-align: center;
+font-size: 72px;
+transition: ease-in-out 1s;
+
+}
+
+
+h2 {
+font-size: 60px;
+padding: 20px;
+padding-left: 25px;
+padding-right: 25px;
+transition: ease-in-out 1s;
+
+}
+
+h3 {
+text-align: center;
+font-size: 48px;
+transition: ease-in-out 1s;
+
+}
+
+p {
+text-align: center;
+font-size: 48px;
+transition: ease-in-out 1s;
+
+}
+
+.noc {
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 36px;
+  transition: ease-in-out 1s;
+
+}
+
+.squi {
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 36px;
+  transition: ease-in-out 1s;
+
+}
+
+a {
+
+  color: white;
+  max-width: 40%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  font-size: 36px;
+  text-decoration: none;
+
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: white;
+  animation:  shake 0.8s  ;
+
+}
+
+a:active {
+  color: white;
+}
+
+ @keyframes shake{
+   0%{
+     transform: translateX(0)
+   }
+   25%{
+     transform: translateX(25px);
+   }
+
+   50%{
+     transform: translateX(-25px);
+   }
+   100%{
+     transform: translateX(0px);
+   }
+ }
+
+.blink {
+  overflow: nowrap;
+  display: inline-block;
+  animation: animate 1.5s linear infinite;
+
+}
+
+@keyframes animate{
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+@media (max-width:768px) {
+
+  body {
+    background-color: black;
+    font-family: 'Sono', sans-serif;
+    transition: ease-in-out 1s;
+
+  }
+
+
+  h1 {
+  text-align: center;
+  font-size: 50px;
+  color: mediumseagreen;
+}
+
+h2 {
+color: mediumseagreen;
+}
+
+h3 {
+color: mediumseagreen;
+}
+
+p {
+text-align: center;
+font-size: 48px;
+color: mediumseagreen;
+}
+
+.noc {
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: mediumseagreen;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 36px;
+
+}
+
+.squi {
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: mediumseagreen;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 36px;
+
+}
+
+
+  a {
+    color: white;
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-size: 36px;
+    text-decoration: none;
+    padding: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  a:link {
+    color: black;
+  }
+
+  a:visited {
+    color: black;
+  }
+
+  a:hover {
+    color: black;
+    animation:  shake 0.8s  ;
+
+  }
+
+  a:active {
+    color: black;
+  }
+
+   @keyframes shake{
+     0%{
+       transform: translateX(0)
+     }
+     25%{
+       transform: translateX(25px);
+     }
+
+     50%{
+       transform: translateX(-25px);
+     }
+     100%{
+       transform: translateX(0px);
+     }
+   }
+}

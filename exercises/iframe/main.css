@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+}
+
+p {
+  font-family: "Courier Prime";
+  color: white;
+}
+
+.poems {
+padding: 10px;
+display: flex;
+flex-direction: column;
+text-align: left;
+float: left;
+}
+
+.music {
+padding: 10px;
+margin: 10px;
+display: flex;
+flex-direction: column;
+text-align: right;
+float: right;
+flex-grow: 1;
+flex-shrink: 1;
+}
+
+.song1 {
+padding: 10px;
+flex-grow: 1;
+flex-shrink: 1;
+}
+
+.song2 {
+padding: 10px;
+flex-grow: 1;
+flex-shrink: 1;
+}
